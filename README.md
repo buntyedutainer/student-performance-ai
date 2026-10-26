@@ -1,4 +1,4 @@
-# student-performance-ai
+# Student Performance Predictor
 
 Title: Student Performance Predictor
 Problem: Schools want to identify students at risk of low grades early so they can support them.
