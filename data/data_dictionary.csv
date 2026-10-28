@@ -1,0 +1,34 @@
+column,type,description,example
+school,categorical,School attended (GP or MS),GP
+sex,categorical,Student's sex (F or M),F
+age,numeric,Age in years (15-22),18
+address,categorical,"Home address type (U = urban, R = rural)",U
+famsize,categorical,"Family size (LE3 = 3 or fewer, GT3 = more than 3)",GT3
+Pstatus,categorical,Parents living together (T) or apart (A),A
+Medu,numeric,Mother's education (0-4),4
+Fedu,numeric,Father's education (0-4),4
+Mjob,categorical,Mother's job category,at_home
+Fjob,categorical,Father's job category,teacher
+reason,categorical,Reason for choosing this school,course
+guardian,categorical,Student's guardian,mother
+traveltime,numeric,Home to school travel time (1-4),2
+studytime,numeric,Weekly study time (1-4),2
+failures,numeric,Number of past class failures,0
+schoolsup,categorical,Extra educational support from school,yes
+famsup,categorical,Family educational support,no
+paid,categorical,Paid extra classes in the subject,no
+activities,categorical,Extracurricular activities,no
+nursery,categorical,Attended nursery school,yes
+higher,categorical,Wants to take higher education,yes
+internet,categorical,Internet access at home,no
+romantic,categorical,In a romantic relationship,no
+famrel,numeric,Quality of family relationships (1-5),4
+freetime,numeric,Free time after school (1-5),3
+goout,numeric,Going out with friends (1-5),4
+Dalc,numeric,Weekday alcohol consumption (1-5),1
+Walc,numeric,Weekend alcohol consumption (1-5),1
+health,numeric,Current health status (1-5),3
+absences,numeric,Number of school absences,6
+G1,numeric,First period grade (0-20),5
+G2,numeric,Second period grade (0-20),6
+G3,numeric,"Final grade (0-20), TARGET",6
