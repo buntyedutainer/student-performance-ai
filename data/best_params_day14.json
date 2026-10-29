@@ -1,0 +1,16 @@
+{
+  "Tree | early (no G1/G2)": {
+    "max_depth": 2,
+    "min_samples_leaf": 5
+  },
+  "Tree | all features": {
+    "max_depth": 5,
+    "min_samples_leaf": 10
+  },
+  "Ridge | early (no G1/G2)": {
+    "ridge__alpha": 88.58667904100822
+  },
+  "Ridge | all features": {
+    "ridge__alpha": 2.3357214690901213
+  }
+}

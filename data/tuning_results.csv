@@ -1,0 +1,5 @@
+model,features,best CV RMSE (optimistic),nested CV RMSE (honest),std
+Ridge,all features,0.902,0.896,0.068
+Tree,all features,0.914,0.951,0.084
+Ridge,early (no G1/G2),2.95,2.948,0.283
+Tree,early (no G1/G2),3.175,3.191,0.328
