@@ -1,0 +1,7 @@
+features,model,MAE,RMSE,R2,scaled MAE
+early (no G1/G2),Baseline (mean),2.655,3.257,-0.003,1.0
+early (no G1/G2),Linear,2.439,3.057,0.117,0.919
+early (no G1/G2),Ridge,2.398,2.962,0.17,0.903
+all features,Baseline (mean),2.655,3.257,-0.003,1.0
+all features,Linear,0.743,0.909,0.922,0.28
+all features,Ridge,0.739,0.906,0.922,0.278
