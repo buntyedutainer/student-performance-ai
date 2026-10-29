@@ -1,0 +1,9 @@
+features,model,CV RMSE,std
+early (no G1/G2),Baseline (mean),3.255,0.125
+early (no G1/G2),Linear,3.052,0.169
+early (no G1/G2),Ridge (CV alpha),2.961,0.086
+early (no G1/G2),Lasso (CV alpha),2.951,0.149
+all features,Baseline (mean),3.255,0.125
+all features,Linear,0.906,0.079
+all features,Ridge (CV alpha),0.903,0.076
+all features,Lasso (CV alpha),0.841,0.037
