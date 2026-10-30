@@ -1,0 +1,48 @@
+{
+  "created": "2026-10-30T09:58:25",
+  "n_test_assumed": 72,
+  "regression": {
+    "early (no G1/G2)": {
+      "model": "Ridge",
+      "expected_rmse": 2.959,
+      "expected_range_95": [
+        2.482661817414654,
+        3.380634483890643
+      ]
+    },
+    "all features": {
+      "model": "Ridge",
+      "expected_rmse": 0.916,
+      "expected_range_95": [
+        0.7638558293208028,
+        1.0395304452064604
+      ]
+    }
+  },
+  "classification": {
+    "early (no G1/G2)": {
+      "model": "Logistic",
+      "expected_auc": 0.657,
+      "expected_range_95": [
+        0.5090681818181819,
+        0.8226607407788004
+      ],
+      "threshold": 0.12,
+      "train_oof_recall": 0.821917808219178,
+      "train_oof_precision": 0.2777777777777778,
+      "train_oof_flagged_share": 0.7578947368421053
+    },
+    "all features": {
+      "model": "Logistic",
+      "expected_auc": 0.943,
+      "expected_range_95": [
+        0.8996641346862423,
+        0.9897119341563786
+      ],
+      "threshold": 0.36000000000000004,
+      "train_oof_recall": 0.821917808219178,
+      "train_oof_precision": 0.7792207792207793,
+      "train_oof_flagged_share": 0.27017543859649124
+    }
+  }
+}

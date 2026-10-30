@@ -1,0 +1,3 @@
+features,CV RMSE (nested),test RMSE,RMSE inside expected range,gain over baseline % (test),gain 95% CI,CV AUC (nested),test AUC,AUC inside expected range
+early (no G1/G2),2.959,2.602,Yes,16.2,6.9 to 25.1,0.657,0.748,Yes
+all features,0.916,0.898,Yes,71.1,63.5 to 77.5,0.943,0.991,NO
