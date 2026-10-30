@@ -1,0 +1,161 @@
+feature,importance,std,clearly above zero,features,task
+schoolsup,0.16681621571477784,0.01467282949225463,True,early (no G1/G2),regression: RMSE increase
+failures,0.10178746574293773,0.04034651385595905,True,early (no G1/G2),regression: RMSE increase
+absences,0.0864093646767741,0.06594270741135236,True,early (no G1/G2),regression: RMSE increase
+Mjob_services,0.04816605231463292,0.028389680228492285,True,early (no G1/G2),regression: RMSE increase
+internet,0.03106570636367507,0.031228822247505023,True,early (no G1/G2),regression: RMSE increase
+goout,0.027936021560419515,0.03912203595018788,False,early (no G1/G2),regression: RMSE increase
+studytime,0.02751843507723505,0.018978757569084705,True,early (no G1/G2),regression: RMSE increase
+famsup,0.025183513913858153,0.015277222040821253,True,early (no G1/G2),regression: RMSE increase
+Mjob_health,0.024202058905135344,0.02258064049282857,True,early (no G1/G2),regression: RMSE increase
+Fjob_teacher,0.022050549592497352,0.056305854467916895,False,early (no G1/G2),regression: RMSE increase
+health,0.020068176638843298,0.020639622225543424,True,early (no G1/G2),regression: RMSE increase
+Fedu,0.018373234287807155,0.015487015565142826,True,early (no G1/G2),regression: RMSE increase
+Walc,0.012658603349080071,0.02810733067425323,False,early (no G1/G2),regression: RMSE increase
+sex,0.009664703076368592,0.009525583141141204,True,early (no G1/G2),regression: RMSE increase
+Fjob_health,0.009179158672725346,0.01444219656386505,False,early (no G1/G2),regression: RMSE increase
+reason_home,0.004590800978370507,0.005363561452579451,False,early (no G1/G2),regression: RMSE increase
+age,0.0038056479889575097,0.0070856041220488,False,early (no G1/G2),regression: RMSE increase
+famrel,0.003769815578879188,0.013778909038799837,False,early (no G1/G2),regression: RMSE increase
+nursery,0.003396956559169375,0.006863417678621111,False,early (no G1/G2),regression: RMSE increase
+guardian_other,0.002196170336507421,0.006043442839371113,False,early (no G1/G2),regression: RMSE increase
+Medu,0.0017277350641315965,0.01390460784933443,False,early (no G1/G2),regression: RMSE increase
+higher,0.0006455881411681474,0.00815500352055645,False,early (no G1/G2),regression: RMSE increase
+Fjob_other,0.0002698222735926948,0.009860020113484774,False,early (no G1/G2),regression: RMSE increase
+address,-0.0010203299158684051,0.010863524448260385,False,early (no G1/G2),regression: RMSE increase
+Pstatus,-0.001514942713917762,0.011736052114172054,False,early (no G1/G2),regression: RMSE increase
+Mjob_other,-0.0017455975508048108,0.014523419875728784,False,early (no G1/G2),regression: RMSE increase
+school,-0.0021089944233866655,0.019520224080313134,False,early (no G1/G2),regression: RMSE increase
+famsize,-0.0021514298808495355,0.013458553224858708,False,early (no G1/G2),regression: RMSE increase
+Dalc,-0.002632432431757987,0.007425204360712736,False,early (no G1/G2),regression: RMSE increase
+paid,-0.002682337553256673,0.016533782512349694,False,early (no G1/G2),regression: RMSE increase
+freetime,-0.003946947986926465,0.0041433452060798785,False,early (no G1/G2),regression: RMSE increase
+reason_reputation,-0.004056084556412402,0.004272964811151362,False,early (no G1/G2),regression: RMSE increase
+traveltime,-0.005030200491975876,0.003198849174330778,False,early (no G1/G2),regression: RMSE increase
+activities,-0.005625225559087026,0.006949510148281312,False,early (no G1/G2),regression: RMSE increase
+Fjob_services,-0.006611957068923609,0.021484057142819164,False,early (no G1/G2),regression: RMSE increase
+reason_other,-0.00684493033778944,0.006025019895760136,False,early (no G1/G2),regression: RMSE increase
+Mjob_teacher,-0.00734860625472403,0.020631225875620943,False,early (no G1/G2),regression: RMSE increase
+guardian_mother,-0.008273344424209413,0.010519339972400872,False,early (no G1/G2),regression: RMSE increase
+romantic,-0.00886423596730415,0.0053870301551526695,False,early (no G1/G2),regression: RMSE increase
+G2,2.925096488089923,0.1522554197237831,True,all features,regression: RMSE increase
+G1,0.25088413729092485,0.08017851644865122,True,all features,regression: RMSE increase
+Mjob_teacher,0.025497159775949945,0.03265024670249317,False,all features,regression: RMSE increase
+famrel,0.02007440577348586,0.015886494169583616,True,all features,regression: RMSE increase
+Fjob_other,0.011537587520648405,0.008559344064297264,True,all features,regression: RMSE increase
+health,0.01143200097453329,0.011367543265992137,True,all features,regression: RMSE increase
+guardian_other,0.007791171168427024,0.011851264428072696,False,all features,regression: RMSE increase
+famsup,0.006468022425736147,0.009817196131012718,False,all features,regression: RMSE increase
+famsize,0.00554938252531652,0.006998507709118019,False,all features,regression: RMSE increase
+Mjob_health,0.005217565531591244,0.005318089588181374,True,all features,regression: RMSE increase
+activities,0.0051645475172553005,0.006834593454872454,False,all features,regression: RMSE increase
+nursery,0.004968820282259046,0.015237524308711677,False,all features,regression: RMSE increase
+internet,0.003896969005272899,0.0025808701789236223,True,all features,regression: RMSE increase
+paid,0.0036740719420555283,0.015783933187782637,False,all features,regression: RMSE increase
+absences,0.0034270457597648796,0.004122720218404745,False,all features,regression: RMSE increase
+Fedu,0.0032114900884056864,0.009309272965258089,False,all features,regression: RMSE increase
+Pstatus,0.0022348978905743456,0.013069433108244441,False,all features,regression: RMSE increase
+Fjob_teacher,0.0014749712223660171,0.004727361423343423,False,all features,regression: RMSE increase
+goout,0.0014491561856422573,0.021133376579151715,False,all features,regression: RMSE increase
+sex,0.0012933643717204448,0.00586952774086628,False,all features,regression: RMSE increase
+Walc,0.0012380969687962515,0.006003875049754988,False,all features,regression: RMSE increase
+higher,0.0011271041943990846,0.0026672986920059415,False,all features,regression: RMSE increase
+romantic,0.00013679532420972864,0.000776912266051027,False,all features,regression: RMSE increase
+reason_other,-0.0003303111413242887,0.001028645950635175,False,all features,regression: RMSE increase
+Fjob_services,-0.0003565994734268329,0.004148667161161128,False,all features,regression: RMSE increase
+reason_reputation,-0.0003679091833475855,0.002411521406069782,False,all features,regression: RMSE increase
+reason_home,-0.0005151338865139656,0.006199694559524654,False,all features,regression: RMSE increase
+Mjob_other,-0.0006100855465484445,0.013214410891135129,False,all features,regression: RMSE increase
+Medu,-0.0010786205024278853,0.008146367051611807,False,all features,regression: RMSE increase
+freetime,-0.0011067338285371989,0.004688868394329746,False,all features,regression: RMSE increase
+failures,-0.0012165306821120155,0.007760755555313158,False,all features,regression: RMSE increase
+Fjob_health,-0.0012794022556020337,0.0034427161922327104,False,all features,regression: RMSE increase
+guardian_mother,-0.0017414551779825357,0.0062711620879952416,False,all features,regression: RMSE increase
+studytime,-0.0025833594472331467,0.004751421531993356,False,all features,regression: RMSE increase
+age,-0.0034244107673540936,0.0149355946254779,False,all features,regression: RMSE increase
+school,-0.003750499154231568,0.009946495176196158,False,all features,regression: RMSE increase
+schoolsup,-0.0039003379877108777,0.0022141055184313825,False,all features,regression: RMSE increase
+Mjob_services,-0.0039576863646241045,0.012031977283960636,False,all features,regression: RMSE increase
+Dalc,-0.004696593389732089,0.009001542761760156,False,all features,regression: RMSE increase
+address,-0.0064867882356266894,0.004357477272726935,False,all features,regression: RMSE increase
+traveltime,-0.007173022418572076,0.008783011577876866,False,all features,regression: RMSE increase
+absences,0.07406699889258031,0.040438159552585416,True,early (no G1/G2),at-risk classifier: AUC drop
+failures,0.04423218899963085,0.031249622971527013,True,early (no G1/G2),at-risk classifier: AUC drop
+schoolsup,0.043640642303432994,0.018772759891621898,True,early (no G1/G2),at-risk classifier: AUC drop
+goout,0.03773532668881507,0.06162851363899429,False,early (no G1/G2),at-risk classifier: AUC drop
+Mjob_services,0.024757290513104453,0.013748304558927057,True,early (no G1/G2),at-risk classifier: AUC drop
+famsup,0.022500922849760047,0.016258083380569104,True,early (no G1/G2),at-risk classifier: AUC drop
+Mjob_teacher,0.012084717607973416,0.01584526621864558,False,early (no G1/G2),at-risk classifier: AUC drop
+age,0.011172942045035068,0.019913104005429706,False,early (no G1/G2),at-risk classifier: AUC drop
+higher,0.010650609080841613,0.01955069016362933,False,early (no G1/G2),at-risk classifier: AUC drop
+studytime,0.010287929125138425,0.006382658381233668,True,early (no G1/G2),at-risk classifier: AUC drop
+nursery,0.00695736434108527,0.022520587663387822,False,early (no G1/G2),at-risk classifier: AUC drop
+Fedu,0.006927833148763371,0.015004486937108711,False,early (no G1/G2),at-risk classifier: AUC drop
+Fjob_health,0.005852713178294574,0.012910864634849204,False,early (no G1/G2),at-risk classifier: AUC drop
+health,0.005647840531561426,0.00985384526209844,False,early (no G1/G2),at-risk classifier: AUC drop
+Fjob_other,0.00467238833517902,0.009175441919030069,False,early (no G1/G2),at-risk classifier: AUC drop
+Fjob_services,0.004163898117386486,0.009966448210728968,False,early (no G1/G2),at-risk classifier: AUC drop
+school,0.0036904761904761802,0.0050607249917675465,False,early (no G1/G2),at-risk classifier: AUC drop
+Walc,0.0031339977851605636,0.014496899617072744,False,early (no G1/G2),at-risk classifier: AUC drop
+reason_home,0.003020487264673316,0.009495318857541065,False,early (no G1/G2),at-risk classifier: AUC drop
+Fjob_teacher,0.002827611664820956,0.01190093638189185,False,early (no G1/G2),at-risk classifier: AUC drop
+famsize,0.002726098191214457,0.005260053797096542,False,early (no G1/G2),at-risk classifier: AUC drop
+traveltime,0.00257290513104467,0.010502032094087064,False,early (no G1/G2),at-risk classifier: AUC drop
+activities,0.0025406053894426045,0.0055575400179493735,False,early (no G1/G2),at-risk classifier: AUC drop
+reason_other,0.001951827242524909,0.007959246813910185,False,early (no G1/G2),at-risk classifier: AUC drop
+famrel,0.0018798449612403012,0.006060911613912883,False,early (no G1/G2),at-risk classifier: AUC drop
+internet,0.0016445182724252245,0.013752002234422585,False,early (no G1/G2),at-risk classifier: AUC drop
+Dalc,0.0012790697674418539,0.003124339516906964,False,early (no G1/G2),at-risk classifier: AUC drop
+romantic,0.001210778885197486,0.012597888207113937,False,early (no G1/G2),at-risk classifier: AUC drop
+Mjob_other,0.0011452565522332842,0.007572135103887641,False,early (no G1/G2),at-risk classifier: AUC drop
+reason_reputation,0.0010474344776670087,0.008958592862501016,False,early (no G1/G2),at-risk classifier: AUC drop
+guardian_mother,-0.00038944259874493513,0.004628066934236846,False,early (no G1/G2),at-risk classifier: AUC drop
+Pstatus,-0.0010944998154300445,0.009286944280803407,False,early (no G1/G2),at-risk classifier: AUC drop
+sex,-0.0019499815430048056,0.005875061005305119,False,early (no G1/G2),at-risk classifier: AUC drop
+address,-0.0025092284976006075,0.0035468950472939405,False,early (no G1/G2),at-risk classifier: AUC drop
+freetime,-0.0028543743078626865,0.009609500549904124,False,early (no G1/G2),at-risk classifier: AUC drop
+paid,-0.0029226651901070543,0.008383861894079137,False,early (no G1/G2),at-risk classifier: AUC drop
+Mjob_health,-0.0033314876338132295,0.018954344195047313,False,early (no G1/G2),at-risk classifier: AUC drop
+guardian_other,-0.004099298634182358,0.006255409139234628,False,early (no G1/G2),at-risk classifier: AUC drop
+Medu,-0.011890919158361024,0.016959011265426076,False,early (no G1/G2),at-risk classifier: AUC drop
+G2,0.27985049833887043,0.04655559657116365,True,all features,at-risk classifier: AUC drop
+G1,0.06958656330749353,0.022479603283061825,True,all features,at-risk classifier: AUC drop
+Fjob_other,0.013804909560723489,0.008440012527491485,True,all features,at-risk classifier: AUC drop
+Walc,0.013510520487264668,0.009235460182641105,True,all features,at-risk classifier: AUC drop
+goout,0.009481358434846793,0.008560362034872718,True,all features,at-risk classifier: AUC drop
+famrel,0.0065485418973791065,0.008595658427578881,False,all features,at-risk classifier: AUC drop
+absences,0.006414728682170534,0.007905471019042274,False,all features,at-risk classifier: AUC drop
+age,0.005837024732373563,0.0077236047055899365,False,all features,at-risk classifier: AUC drop
+romantic,0.005709671465485397,0.00923637456836202,False,all features,at-risk classifier: AUC drop
+famsize,0.005690291620524155,0.005105923692310452,True,all features,at-risk classifier: AUC drop
+health,0.005462347729789591,0.002934178644183046,True,all features,at-risk classifier: AUC drop
+reason_home,0.005241786637135479,0.0032123441095992904,True,all features,at-risk classifier: AUC drop
+Mjob_other,0.004712993724621617,0.007410051585398433,False,all features,at-risk classifier: AUC drop
+nursery,0.0027602436323366482,0.006600929583470135,False,all features,at-risk classifier: AUC drop
+Fjob_teacher,0.0026531930601697866,0.0029760563380280625,False,all features,at-risk classifier: AUC drop
+sex,0.002505537098560362,0.003466759775053192,False,all features,at-risk classifier: AUC drop
+guardian_other,0.0023772609819121215,0.0041315314856411964,False,all features,at-risk classifier: AUC drop
+traveltime,0.00227943890734586,0.006106352931197593,False,all features,at-risk classifier: AUC drop
+schoolsup,0.001926910299003315,0.0036888063638722754,False,all features,at-risk classifier: AUC drop
+Mjob_services,0.0017792543373938736,0.0025009752064631867,False,all features,at-risk classifier: AUC drop
+Fjob_services,0.0013086009597637394,0.002197541986022678,False,all features,at-risk classifier: AUC drop
+reason_other,0.0012393872277592893,0.002547551375751305,False,all features,at-risk classifier: AUC drop
+higher,0.0010077519379845079,0.004707097630871669,False,all features,at-risk classifier: AUC drop
+Mjob_teacher,0.0009985234403839082,0.004601054641041951,False,all features,at-risk classifier: AUC drop
+Fjob_health,0.000589700996677725,0.0029888783692561443,False,all features,at-risk classifier: AUC drop
+activities,0.00021686969361385257,0.0030650544909470584,False,all features,at-risk classifier: AUC drop
+school,-1.29198966408256e-05,0.0011314294249191647,False,all features,at-risk classifier: AUC drop
+guardian_mother,-3.414544112219642e-05,0.0011971223663483769,False,all features,at-risk classifier: AUC drop
+Medu,-7.47508305647876e-05,0.004673764159390422,False,all features,at-risk classifier: AUC drop
+internet,-0.000137504614248804,0.0030190684693592014,False,all features,at-risk classifier: AUC drop
+failures,-0.0003156146179402186,0.0019060913906930861,False,all features,at-risk classifier: AUC drop
+freetime,-0.0003746770025839896,0.00378252943381311,False,all features,at-risk classifier: AUC drop
+Dalc,-0.0005500184569951966,0.0011816009184873013,False,all features,at-risk classifier: AUC drop
+reason_reputation,-0.0006423034330011179,0.0018695208562579295,False,all features,at-risk classifier: AUC drop
+paid,-0.0007899593946105732,0.0018106632135526065,False,all features,at-risk classifier: AUC drop
+studytime,-0.0008813215208564207,0.002320843301576809,False,all features,at-risk classifier: AUC drop
+Pstatus,-0.001075119970468788,0.0011678334640595153,False,all features,at-risk classifier: AUC drop
+famsup,-0.0016279069767442117,0.002463523624181938,False,all features,at-risk classifier: AUC drop
+address,-0.0016823551125877078,0.0034226602210272435,False,all features,at-risk classifier: AUC drop
+Fedu,-0.0020727205610926724,0.00995064513679946,False,all features,at-risk classifier: AUC drop
+Mjob_health,-0.0052768549280177435,0.009599488904295845,False,all features,at-risk classifier: AUC drop
