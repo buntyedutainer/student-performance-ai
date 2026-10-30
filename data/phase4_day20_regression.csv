@@ -1,0 +1,7 @@
+features,model,default RMSE,tuned RMSE (nested),std,gain from tuning,gain over baseline %,folds better than baseline
+early (no G1/G2),Ridge,2.968,2.959,0.156,0.009,9.4,10/10
+early (no G1/G2),Random Forest,3.0,3.046,0.172,-0.046,6.7,9/10
+early (no G1/G2),Gradient Boosting,3.003,2.989,0.157,0.014,8.5,10/10
+all features,Ridge,0.914,0.916,0.073,-0.002,71.9,10/10
+all features,Random Forest,1.046,0.897,0.085,0.149,72.5,10/10
+all features,Gradient Boosting,0.869,0.867,0.064,0.002,73.4,10/10

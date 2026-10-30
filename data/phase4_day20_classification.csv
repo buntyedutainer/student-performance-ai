@@ -1,0 +1,7 @@
+features,model,nested ROC AUC,std
+early (no G1/G2),Logistic,0.657,0.08
+early (no G1/G2),Random Forest,0.659,0.062
+early (no G1/G2),Gradient Boosting,0.669,0.06
+all features,Logistic,0.943,0.024
+all features,Random Forest,0.963,0.022
+all features,Gradient Boosting,0.962,0.02

@@ -1,0 +1,66 @@
+{
+  "design": {
+    "outer_cv": "RepeatedKFold 5 splits x 2 repeats, random_state=42",
+    "inner_cv": "5-fold, shuffle, random_state=1",
+    "search": "RandomizedSearchCV",
+    "fast_mode": false
+  },
+  "rules": {
+    "selection": "simplest model within 1 std of the best nested score",
+    "regression_useful": ">=80% folds better than baseline and >=10% lower RMSE",
+    "classification_usable": "nested ROC AUC >= 0.70"
+  },
+  "regression": {
+    "early (no G1/G2)": {
+      "model": "Ridge",
+      "nested_cv_rmse": 2.959,
+      "std": 0.156,
+      "gain_over_baseline_pct": 9.4,
+      "folds_better_than_baseline": "10/10",
+      "useful": false,
+      "params": {
+        "ridge__alpha": 99.03593841281113
+      },
+      "refit_cv_rmse_OPTIMISTIC_do_not_report": 2.91922679022543
+    },
+    "all features": {
+      "model": "Ridge",
+      "nested_cv_rmse": 0.916,
+      "std": 0.073,
+      "gain_over_baseline_pct": 71.9,
+      "folds_better_than_baseline": "10/10",
+      "useful": true,
+      "params": {
+        "ridge__alpha": 2.0295362430434727
+      },
+      "refit_cv_rmse_OPTIMISTIC_do_not_report": 0.9135117955139632
+    }
+  },
+  "classification": {
+    "early (no G1/G2)": {
+      "model": "Logistic",
+      "nested_roc_auc": 0.657,
+      "std": 0.08,
+      "usable": false,
+      "params": {
+        "logisticregression__C": 0.08264328927007726
+      },
+      "refit_cv_auc_OPTIMISTIC_do_not_report": 0.6898560354374308
+    },
+    "all features": {
+      "model": "Logistic",
+      "nested_roc_auc": 0.943,
+      "std": 0.024,
+      "usable": true,
+      "params": {
+        "logisticregression__C": 1.032326035197657
+      },
+      "refit_cv_auc_OPTIMISTIC_do_not_report": 0.9543743078626801
+    }
+  },
+  "baseline_cv_rmse": {
+    "early (no G1/G2)": 3.265623325606575,
+    "all features": 3.265623325606575
+  },
+  "test_set_status": "sealed until Day 21"
+}
