@@ -1,0 +1,30 @@
+{
+  "staged_search": {
+    "early (no G1/G2)": {
+      "max_depth": 1,
+      "learning_rate": 0.05,
+      "n_estimators": 280,
+      "cv_rmse": 2.999070409276024
+    },
+    "all features": {
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "n_estimators": 70,
+      "cv_rmse": 0.8778321110498355
+    }
+  },
+  "grid_search": {
+    "early (no G1/G2)": {
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "n_estimators": 100,
+      "subsample": 0.7
+    },
+    "all features": {
+      "learning_rate": 0.02,
+      "max_depth": 2,
+      "n_estimators": 250,
+      "subsample": 0.7
+    }
+  }
+}

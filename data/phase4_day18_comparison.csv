@@ -1,0 +1,9 @@
+features,model,RMSE,std,gain over baseline %,folds better than baseline,folds better than Ridge
+early (no G1/G2),Ridge,2.966,0.13,9.2,15/15,
+early (no G1/G2),Random Forest,2.98,0.149,8.8,15/15,9/15
+early (no G1/G2),Gradient Boosting,2.967,0.141,9.2,14/15,8/15
+early (no G1/G2),Hist Gradient Boosting,3.071,0.191,6.0,14/15,3/15
+all features,Ridge,0.903,0.082,72.4,15/15,
+all features,Random Forest,1.038,0.074,68.2,15/15,0/15
+all features,Gradient Boosting,0.861,0.073,73.6,15/15,13/15
+all features,Hist Gradient Boosting,0.876,0.07,73.2,15/15,13/15

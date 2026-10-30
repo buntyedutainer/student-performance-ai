@@ -1,0 +1,7 @@
+features,loss,RMSE,MAE
+early (no G1/G2),squared_error,3.019,2.486
+early (no G1/G2),huber,3.025,2.481
+early (no G1/G2),absolute_error,3.072,2.494
+all features,squared_error,0.868,0.676
+all features,huber,0.865,0.673
+all features,absolute_error,0.923,0.698

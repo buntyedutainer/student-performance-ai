@@ -1,0 +1,7 @@
+features,model,ROC AUC,AUC std,PR AUC
+early (no G1/G2),Logistic,0.652,0.085,0.442
+early (no G1/G2),Random Forest,0.663,0.059,0.428
+early (no G1/G2),Gradient Boosting,0.657,0.061,0.406
+all features,Logistic,0.951,0.03,0.876
+all features,Random Forest,0.952,0.03,0.882
+all features,Gradient Boosting,0.962,0.023,0.888
