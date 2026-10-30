@@ -1,0 +1,12 @@
+{
+  "early (no G1/G2)": {
+    "min_samples_leaf": 1,
+    "max_features": 0.2,
+    "cv_rmse": 2.974550913486241
+  },
+  "all features": {
+    "min_samples_leaf": 5,
+    "max_features": 0.75,
+    "cv_rmse": 0.8746236234194574
+  }
+}

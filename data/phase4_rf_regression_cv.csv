@@ -1,0 +1,13 @@
+features,model,RMSE,std
+early (no G1/G2),Baseline (mean),3.267,0.124
+early (no G1/G2),Single tree (default),4.354,0.318
+early (no G1/G2),Bagging (max_features=1.0),3.014,0.161
+early (no G1/G2),Random Forest (max_features=0.33),2.987,0.154
+early (no G1/G2),Random Forest (sqrt),2.985,0.132
+early (no G1/G2),"Random Forest (0.33, leaf=5)",2.993,0.146
+all features,Baseline (mean),3.267,0.124
+all features,Single tree (default),1.237,0.122
+all features,Bagging (max_features=1.0),0.918,0.079
+all features,Random Forest (max_features=0.33),0.996,0.067
+all features,Random Forest (sqrt),1.37,0.094
+all features,"Random Forest (0.33, leaf=5)",1.1,0.074

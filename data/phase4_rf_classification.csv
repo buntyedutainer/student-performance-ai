@@ -1,0 +1,3 @@
+features,model,ROC AUC,AUC std,PR AUC
+early (no G1/G2),Random Forest classifier,0.663,0.059,0.428
+all features,Random Forest classifier,0.952,0.03,0.882
