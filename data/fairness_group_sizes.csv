@@ -1,0 +1,21 @@
+attribute,group,n,at-risk n,actual at-risk %,mean G3,small group?
+sex,female,148,39,26.4,11.32,
+sex,male,137,34,24.8,11.79,
+school,GP,252,63,25.0,11.63,
+school,MS,33,10,30.3,10.88,YES
+address,rural,63,18,28.6,10.94,
+address,urban,222,55,24.8,11.72,
+family size,3 or fewer,85,22,25.9,11.68,
+family size,more than 3,200,51,25.5,11.49,
+parents,living apart,32,8,25.0,11.94,YES
+parents,together,253,65,25.7,11.5,
+internet at home,no,49,16,32.7,10.39,
+internet at home,yes,236,57,24.2,11.79,
+wants higher ed.,no,12,7,58.3,9.67,YES
+wants higher ed.,yes,273,66,24.2,11.63,
+age,17 or younger,205,46,22.4,11.68,
+age,18 or older,80,27,33.8,11.21,
+mother's education,up to 9th grade,118,31,26.3,11.07,
+mother's education,secondary or higher,167,42,25.1,11.89,
+romantic relationship,no,197,50,25.4,11.56,
+romantic relationship,yes,88,23,26.1,11.51,

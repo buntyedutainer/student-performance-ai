@@ -1,0 +1,17 @@
+attribute,features,group,rule,threshold,recall,flagged %,precision
+sex,early (no G1/G2),female,common threshold,0.12,0.82,83.1,0.26
+sex,early (no G1/G2),female,per-group threshold,0.12,0.82,83.1,0.26
+sex,early (no G1/G2),male,common threshold,0.12,0.82,67.9,0.3
+sex,early (no G1/G2),male,per-group threshold,0.13,0.82,65.7,0.31
+sex,all features,female,common threshold,0.36,0.79,29.1,0.72
+sex,all features,female,per-group threshold,0.32,0.85,31.8,0.7
+sex,all features,male,common threshold,0.36,0.85,24.8,0.85
+sex,all features,male,per-group threshold,0.55,0.82,23.4,0.88
+school,early (no G1/G2),GP,common threshold,0.12,0.79,74.2,0.27
+school,early (no G1/G2),GP,per-group threshold,0.1,0.84,80.2,0.26
+school,early (no G1/G2),MS,common threshold,0.12,1.0,87.9,0.34
+school,early (no G1/G2),MS,per-group threshold,0.34,0.8,36.4,0.67
+school,all features,GP,common threshold,0.36,0.79,25.8,0.77
+school,all features,GP,per-group threshold,0.32,0.83,27.8,0.74
+school,all features,MS,common threshold,0.36,1.0,36.4,0.83
+school,all features,MS,per-group threshold,0.67,0.8,30.3,0.8

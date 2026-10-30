@@ -1,0 +1,4 @@
+can the other columns predict...,cross-validated AUC,strongest proxies
+sex,0.742,"G1, studytime, Mjob_teacher, G2"
+school,0.864,"age, absences, Walc, Fjob_teacher"
+address,0.595,"traveltime, activities, goout, age"
