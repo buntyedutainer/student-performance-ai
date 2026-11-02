@@ -1,0 +1,9 @@
+features,model,ROC AUC,AUC std,PR AUC,recall@0.5,precision@0.5,F1@0.5
+early (no G1/G2),Baseline (most frequent),0.5,0.0,0.256,0.0,0.0,0.0
+early (no G1/G2),Logistic,0.652,0.085,0.442,0.303,0.46,0.357
+early (no G1/G2),Logistic (balanced),0.658,0.085,0.432,0.56,0.406,0.469
+early (no G1/G2),Logistic (tuned C),0.664,0.078,0.46,0.082,0.318,0.123
+all features,Baseline (most frequent),0.5,0.0,0.256,0.0,0.0,0.0
+all features,Logistic,0.951,0.03,0.876,0.738,0.825,0.774
+all features,Logistic (balanced),0.953,0.03,0.885,0.835,0.759,0.789
+all features,Logistic (tuned C),0.942,0.03,0.86,0.67,0.799,0.708

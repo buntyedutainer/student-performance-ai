@@ -1,0 +1,13 @@
+features,model,RMSE,RMSE std,MAE,R2,scaled MAE
+early (no G1/G2),Baseline (mean),3.267,0.124,2.662,-0.03,1.0
+early (no G1/G2),Linear,3.06,0.207,2.45,0.087,0.92
+early (no G1/G2),Ridge,2.966,0.13,2.404,0.148,0.903
+early (no G1/G2),Lasso,2.96,0.136,2.423,0.151,0.91
+early (no G1/G2),Tree (tuned),3.181,0.191,2.591,0.017,0.973
+early (no G1/G2),Linear (from scratch),3.06,0.207,2.45,0.087,0.92
+all features,Baseline (mean),3.267,0.124,2.662,-0.03,1.0
+all features,Linear,0.905,0.083,0.731,0.92,0.275
+all features,Ridge,0.903,0.082,0.73,0.92,0.274
+all features,Lasso,0.836,0.08,0.65,0.932,0.244
+all features,Tree (tuned),0.974,0.101,0.769,0.907,0.289
+all features,Linear (from scratch),0.905,0.083,0.731,0.92,0.275
