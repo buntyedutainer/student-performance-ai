@@ -32,7 +32,6 @@ All results come from students the final models never saw, measured once. Interv
 | Stage | Grade model | Test RMSE (95% CI) | Beats predicting the class average? | Flag model | Test AUC (95% CI) | Usable (AUC 0.70 or more)? |
 |---|---|---|---|---|---|---|
 | Start of term | Ridge | 2.602 (2.25 to 2.98) | No by the pre-set rule; test gain 16.2% (95% CI 6.9 to 25.1) | Logistic | 0.748 (0.61 to 0.88) | No by the pre-set rule | (inside expected range? grade: Yes | flag: Yes)
-
 | After period 2 | Ridge | 0.898 (0.73 to 1.07) | Yes by the pre-set rule; test gain 71.1% (95% CI 63.5 to 77.5) | Logistic | 0.991 (0.97 to 1.00) | Yes by the pre-set rule | (inside expected range? grade: Yes | flag: NO)
 
 Fill the table from `data/test_results_regression.csv` and `data/test_results_classification.csv`.
