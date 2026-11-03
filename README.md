@@ -13,8 +13,8 @@ This is an AI internship project built over 30 days with the public UCI Student 
 
 > **Decision support only.** A flag means a conversation might help. It is never a decision, label or penalty. Do not use this tool for grading, ranking, admissions or discipline.
 
-!App screenshot - images/Screenshot 1.png
-!App screenshot - images/Screenshot 2.png
+App screenshot - images/Screenshot 1.png
+App screenshot - images/Screenshot 2.png
 
 ## What it does
 
